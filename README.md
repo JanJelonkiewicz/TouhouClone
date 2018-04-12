@@ -1,0 +1,4 @@
+# TouhouClone
+hstus
+
+hstus
