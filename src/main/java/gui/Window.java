@@ -21,6 +21,8 @@ public class Window
 		canvas = new Canvas(WIDTH, HEIGHT);
 		layout.getChildren().add(canvas);
 		
+		CanvasManager cv = new CanvasManager(canvas.getGraphicsContext2D());
+		
 		stage.setTitle(TITLE);
 		stage.setScene(new Scene(layout, WIDTH, HEIGHT));
 		stage.show();
